@@ -1,4 +1,12 @@
-body{
-	background-color: firebrick;
-	color: dodgerblue;
+$white: #F7F8FA;
+$primary: #323776;
+$secondary: #000003;
+
+
+#container{
+	background-color: $primary;
+		p {
+	color: $secondary;
+	border: 2px solid red;
+	}
 }

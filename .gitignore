@@ -3,3 +3,5 @@ dist/
 lib/node_modules
 lib/.sass-cache
 css/main.css.map
+javascripts/api-getter.js
+javascripts/api-config.js
