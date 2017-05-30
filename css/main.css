@@ -5,17 +5,40 @@ body {
 
 #main-header {
   font-family: "Metamorphous", cursive;
-  font-size: 3em; }
-  #main-header #main-footer {
-    font-family: "Open Sans", sans-serif;
-    background-color: #323776;
-    color: #F7F8FA; }
+  background-color: #323776;
+  color: #F7F8FA;
+  margin: 13px;
+  padding: 2px; }
+  #main-header h3 {
+    font-size: 3.5em;
+    text-shadow: 2px 2px 2px red; }
+
+#main-footer {
+  font-family: "Metamorphous", cursive;
+  background-color: #323776;
+  color: #F7F8FA;
+  margin: 15px;
+  padding: 5px 10px; }
 
 #wrapper {
   display: inline-flex;
   margin: 0;
   padding: 0;
   flex-flow: row; }
+
+.text-area {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000; }
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  color: firebrick;
+  font-weight: lighter;
+  text-align: justify;
+  font-size: 1.1em;
+  margin: auto;
+  padding: 1.25em; }
 
 .btn {
   padding: 1em;

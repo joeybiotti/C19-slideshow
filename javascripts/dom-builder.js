@@ -9,3 +9,5 @@ function buildDOM(build){
 	let mainOutput = mainTemplate(build);
 	$("#output").html(mainOutput);
 }
+
+module.exports = {buildDOM};

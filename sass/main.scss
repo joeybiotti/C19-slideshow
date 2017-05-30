@@ -22,8 +22,6 @@ $btnFour: #FFD700;
 $btnFont: #000;
 $enterBtnColor: 696969;
 
-
-
 //*************
 //STYLING BELOW
 //*************
@@ -35,12 +33,22 @@ body{
 
 #main-header{
 	font-family: $headerFont;
-	font-size: 3em;
-		#main-footer{
-			font-family: $bodyFont;
-			background-color: $primary;
-			color: $white;
-	}
+	background-color: $primary;
+	color: $white;
+	margin: 13px;
+	padding: 2px;
+		h3{
+			font-size: 3.5em;
+			text-shadow: 2px 2px 2px red;
+		}
+}
+
+#main-footer{
+	font-family: $headerFont;
+	background-color: $primary;
+	color: $white;
+	margin: 15px;
+	padding: 5px 10px;
 }
 
 #wrapper{
@@ -48,6 +56,22 @@ body{
 	margin: 0;
 	padding: 0;
 	flex-flow: row;
+}
+
+.text-area{
+	margin: 0;
+	padding: 0;
+	border: 1px solid #000;
+}
+
+.text{
+	font-family: $bodyFont;
+	color: firebrick;
+	font-weight: lighter;
+	text-align: justify;
+	font-size: 1.1em;
+	margin: auto;
+	padding: 1.25em;
 }
 
 .btn{
