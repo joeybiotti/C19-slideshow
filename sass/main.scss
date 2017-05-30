@@ -1,11 +1,43 @@
+//*************
+//FONT FAMILIES
+//*************
+
+@import url('https://fonts.googleapis.com/css?family=Metamorphous');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$headerFont: 'Metamorphous', cursive;
+$bodyFont: 'Open Sans', sans-serif;
+
+//********************
+//BODY AND FONT COLORS
+//********************
+
 $white: #F7F8FA;
 $primary: #323776;
 $secondary: #000003;
 $btnOne: #B22222;
 $btnTwo: #2E8B57;
+$btnThree: #00BFFF;
+$btnFour: #FFD700;
+$btnFont: #F5F5F5;
+$enterBtnColor: 696969;
+
+
+
+//*************
+//STYLING BELOW
+//*************
+
 
 body{
 	background-color: $white;
+}
+
+#main-header{
+	#main-footer{
+		background-color: $primary;
+		color: $white;
+	}
 }
 
 #wrapper{
@@ -16,7 +48,6 @@ body{
 }
 
 .btn{
-	color: darkslategrey;
 	padding: 1em;
 	margin: 1em;
 	font-weight: 900;
@@ -26,8 +57,32 @@ body{
 
 #btn-1{
 	background-color: $btnOne;
+	color: $btnFont;
 }
 
 #btn-2{
 	background-color: $btnTwo;
+	color: $btnFont;
 }
+
+#btn-3{
+	background-color: $btnThree;
+	color: $btnFont;
+}
+
+#btn-4{
+	background-color: $btnFour;
+	color: $btnFont;
+}
+
+#enter-btn{
+	background-color: #C0C0C0;
+	color: $enterBtnColor;
+	width: 80%;
+}
+
+
+
+
+
+
