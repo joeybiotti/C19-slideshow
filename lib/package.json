@@ -9,6 +9,7 @@
   "author": "Joey",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "browserify": "^14.4.0",
     "browserify-handlebars": "^1.0.0",
     "grunt": "^1.0.1",

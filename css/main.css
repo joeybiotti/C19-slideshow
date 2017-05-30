@@ -1,5 +1,7 @@
-body {
-  background-color: firebrick;
-  color: dodgerblue; }
+#container {
+  background-color: #323776; }
+  #container p {
+    color: #000003;
+    border: 2px solid red; }
 
 /*# sourceMappingURL=main.css.map */
