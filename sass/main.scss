@@ -1,12 +1,33 @@
 $white: #F7F8FA;
 $primary: #323776;
 $secondary: #000003;
+$btnOne: #B22222;
+$btnTwo: #2E8B57;
 
+body{
+	background-color: $white;
+}
 
-#container{
-	background-color: $primary;
-		p {
-	color: $secondary;
-	border: 2px solid red;
-	}
+#wrapper{
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+	flex-flow: row;
+}
+
+.btn{
+	color: darkslategrey;
+	padding: 1em;
+	margin: 1em;
+	font-weight: 900;
+	border: 1px solid dodgerblue;
+	box-shadow: 3px 3px 2px grey;
+}
+
+#btn-1{
+	background-color: $btnOne;
+}
+
+#btn-2{
+	background-color: $btnTwo;
 }

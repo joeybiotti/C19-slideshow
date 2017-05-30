@@ -1,7 +1,24 @@
-#container {
-  background-color: #323776; }
-  #container p {
-    color: #000003;
-    border: 2px solid red; }
+body {
+  background-color: #F7F8FA; }
+
+#wrapper {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  flex-flow: row; }
+
+.btn {
+  color: darkslategrey;
+  padding: 1em;
+  margin: 1em;
+  font-weight: 900;
+  border: 1px solid dodgerblue;
+  box-shadow: 3px 3px 2px grey; }
+
+#btn-1 {
+  background-color: #B22222; }
+
+#btn-2 {
+  background-color: #2E8B57; }
 
 /*# sourceMappingURL=main.css.map */
