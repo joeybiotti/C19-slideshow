@@ -19,7 +19,7 @@ $btnOne: #B22222;
 $btnTwo: #2E8B57;
 $btnThree: #00BFFF;
 $btnFour: #FFD700;
-$btnFont: #F5F5F5;
+$btnFont: #000;
 $enterBtnColor: 696969;
 
 
@@ -34,9 +34,12 @@ body{
 }
 
 #main-header{
-	#main-footer{
-		background-color: $primary;
-		color: $white;
+	font-family: $headerFont;
+	font-size: 3em;
+		#main-footer{
+			font-family: $bodyFont;
+			background-color: $primary;
+			color: $white;
 	}
 }
 
@@ -50,6 +53,7 @@ body{
 .btn{
 	padding: 1em;
 	margin: 1em;
+	font-family: $bodyFont;
 	font-weight: 900;
 	border: 1px solid dodgerblue;
 	box-shadow: 3px 3px 2px grey;

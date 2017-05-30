@@ -3,9 +3,13 @@
 body {
   background-color: #F7F8FA; }
 
-#main-header #main-footer {
-  background-color: #323776;
-  color: #F7F8FA; }
+#main-header {
+  font-family: "Metamorphous", cursive;
+  font-size: 3em; }
+  #main-header #main-footer {
+    font-family: "Open Sans", sans-serif;
+    background-color: #323776;
+    color: #F7F8FA; }
 
 #wrapper {
   display: inline-flex;
@@ -16,25 +20,26 @@ body {
 .btn {
   padding: 1em;
   margin: 1em;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   border: 1px solid dodgerblue;
   box-shadow: 3px 3px 2px grey; }
 
 #btn-1 {
   background-color: #B22222;
-  color: #F5F5F5; }
+  color: #000; }
 
 #btn-2 {
   background-color: #2E8B57;
-  color: #F5F5F5; }
+  color: #000; }
 
 #btn-3 {
   background-color: #00BFFF;
-  color: #F5F5F5; }
+  color: #000; }
 
 #btn-4 {
   background-color: #FFD700;
-  color: #F5F5F5; }
+  color: #000; }
 
 #enter-btn {
   background-color: #C0C0C0;
